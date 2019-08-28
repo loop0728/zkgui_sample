@@ -1,17 +1,19 @@
 # zkgui_sample
 A gui sample which set up with Flythings IDE.
 
-flythings的使用参考：
+# flythings的使用参考：
 1、目录说明
 	app：编译生成zkgui，用于加载flythings的UI生成的so
 	customer_zk：目前我们已经测试过的打包镜像需要的内容，如果拷贝此目录参考：/project/image/configs/i2m/rootfs_fastboot.mk
 	SSD_sample：Flythings IDE编译的工程，生成libzkgui.so
 	tool：修改我们在用的触摸屏的方法
+
 2、编译app：
 	进入app，修改makefile，仅仅需要修改：
 		#赋值对应的路径,此路径需要和
 		PROJECT_PATH=/home/beal.wu/i2m_i6_master/project
 	修改完成后，make即可，在bin中生成zkgui，可以替换/customer_zk/bin下面的zkgui
+
 3、编译SSD_sample：
 	打开Flythings的IDE，然后导入工程，编译参考”IDE使用参考.pdf“、”Flythings工具使用指南.pdf“
 	编译生成的libzkgui.so可以替换customer_zk/lib下面的内容

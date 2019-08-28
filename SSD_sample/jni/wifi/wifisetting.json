@@ -1,0 +1,21 @@
+{
+	"wifi":	{
+		"isSupport":	true,
+		"isEnable":	true,
+		"ssid": "SKY",
+		"connections":	{
+			"SKY": 	{
+				"id": "0",
+				"passwd": "12345678"
+			},
+			"test1": {
+				"id": "1",
+				"passwd": "1234567890"
+			},
+			"test2": {
+				"id": "2",
+				"passwd": "1234567890"
+			}
+		}
+	}
+}

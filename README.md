@@ -23,7 +23,6 @@ A gui sample which set up with Flythings IDE.
 	cd /project
 	./setup_config.sh configs/nvr/i2m/8.2.1/nor.glibc-ramfs.011a.64
 	make clean;make image
-	
 	其实不一定需要用这个config来编译，只要自行将customer_zk里面的内容放置对应的目录即可。
 
 注：1024*600，跑800*480的程序

@@ -12,7 +12,7 @@
 
 
 #ifdef SUPPORT_WLAN_MODULE
-#define WIFI_SETTING_CFG	"/wifi/wifisetting.json"
+#define WIFI_SETTING_CFG	"/appconfigs/wifisetting.json"
 
 static bool isWifiSupport = true;
 static bool isWifiEnable = true;

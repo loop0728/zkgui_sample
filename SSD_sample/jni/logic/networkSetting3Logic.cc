@@ -205,6 +205,7 @@ static bool onButtonClick_Button_connect_conn(ZKButton *pButton) {
 		wlanHdl = getWlanHandle();
 
 	printf("conn param: id=%d, ssid=%s, passwd=%s\n", wlanHdl, (char*)pConnParam->au8SSId, (char*)pConnParam->au8Password);
+	setConnectionStatus(false);
 	MI_WLAN_Connect(&wlanHdl, &stConnectInfo);
 	printf("current wlan handle is %d\n", wlanHdl);
 

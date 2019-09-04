@@ -8,11 +8,10 @@
 #ifndef JNI_WIFIINFO_H_
 #define JNI_WIFIINFO_H_
 
+#ifdef SUPPORT_WLAN_MODULE
 #include "mi_common_datatype.h"
 #include "mi_wlan.h"
 
-
-#ifdef SUPPORT_WLAN_MODULE
 
 bool getWifiSupportStatus();
 void setWifiSupportStatus(bool enable);

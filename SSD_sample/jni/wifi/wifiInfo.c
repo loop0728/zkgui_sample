@@ -7,11 +7,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+#ifdef SUPPORT_WLAN_MODULE
 #include "wifiInfo.h"
 #include "cJSON.h"
 
 
-#ifdef SUPPORT_WLAN_MODULE
 #define WIFI_SETTING_CFG	"/appconfigs/wifisetting.json"
 
 static bool isWifiSupport = true;

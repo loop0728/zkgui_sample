@@ -79,7 +79,7 @@ int sstar_disp_init(MI_DISP_PubAttr_t *pstDispPubAttr)
 #if USE_MIPI
 		eLinkType = E_MI_PNL_LINK_MIPI_DSI;
 #else
-        //eLinkType = E_MI_PNL_LINK_TTL;
+        eLinkType = E_MI_PNL_LINK_TTL;
 #endif
     }
 
